@@ -1,0 +1,95 @@
+#title{
+    background-color: #ff4c69 !important;
+    color: white !important;
+    
+}
+.container{
+    padding: 2% 15% 7%;
+}
+.title-image {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
+    
+    
+    z-index:1;
+    
+    }
+
+       @media (max-width:768px) {
+        #title {
+            text-align: center;
+           
+        }
+        .title-image {
+            position: static;
+            transform: rotate(0);
+           
+        }
+    }
+    .h3{
+        text-align: center;
+    }
+    .grid{
+        text-align: center;
+        padding: 7%;
+    }    
+ #about tindog{
+    padding: 1% 15% ;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c69;
+    color: white;
+}
+.carousel-item{
+    padding: 2% 15%;
+}
+
+.h2{
+    
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+.test-img{
+    border-radius: 100px;
+    width: 100px;
+    margin:40px 20px 20px;
+}
+.press-img{
+    width:15%;
+    margin:10px 10px 40px;
+}
+#press{
+    background-color: #ff4c69;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.card-body{
+    text-align: center;
+}
+.pricing-heading{
+    padding: 40px auto;
+}
+#pricing{
+    padding:30px;
+    text-align: center;
+}
+#action {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 3% 12%;
+    text-align: center;
+    padding-bottom: 0%;
+  }
+ 
+    #footer{
+        text-align: center;
+        padding-top: 30px;
+      }
+  
